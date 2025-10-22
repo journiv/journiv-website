@@ -15,12 +15,16 @@ export function Demo() {
 
           <Card className="w-full max-w-md overflow-hidden border-border/50">
             <div className="relative w-full bg-muted" style={{ aspectRatio: "9/16" }}>
-              <iframe
-                src="https://imgur.com/tx1LpEX/embed"
-                className="h-full w-full"
-                allowFullScreen
-                title="Journiv Demo Video"
-              />
+              <video
+                src="https://xtgsourjxouxlzy3.public.blob.vercel-storage.com/demo720p.mov"
+                className="h-full w-full object-contain"
+                controls
+                playsInline
+                preload="metadata"
+                aria-label="Journiv Demo Video"
+              >
+                Your browser does not support the video tag.
+              </video>
             </div>
           </Card>
 
