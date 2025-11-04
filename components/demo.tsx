@@ -16,7 +16,7 @@ export function Demo() {
           <Card className="w-full max-w-md overflow-hidden border-border/50">
             <div className="relative w-full bg-muted" style={{ aspectRatio: "9/16" }}>
               <video
-                src="https://xtgsourjxouxlzy3.public.blob.vercel-storage.com/demo720p.mov"
+                src="https://github.com/user-attachments/assets/e34f800d-b2d9-4fca-b3ee-c71e850ed1e9"
                 className="h-full w-full object-contain"
                 controls
                 playsInline
